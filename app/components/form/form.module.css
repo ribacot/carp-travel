@@ -26,7 +26,7 @@
   height: 24px;
 }
 .form input,
-textarea {
+.form textarea {
   background-color: rgba(255, 255, 255, 0.05);
   padding-left: 8px;
 }
