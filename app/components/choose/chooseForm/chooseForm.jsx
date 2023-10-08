@@ -5,7 +5,7 @@ export default function ChooseForm() {
     <>
       <div className={css.wrapper}>
         <p className={css.descriptinForm}>
-          Don't miss your opportunity! Fill out the form right now and join our
+          Don&apos;t miss your opportunity! Fill out the form right now and join our
           team!
         </p>
       </div>
