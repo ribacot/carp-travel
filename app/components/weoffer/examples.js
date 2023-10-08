@@ -10,7 +10,7 @@ import ballooningBg from "@/app/img/weoffer/mobile/background/service3.png";
 import skydivingBg from "@/app/img/weoffer/mobile/background/service4.png";
 import raftingBg from "@/app/img/weoffer/mobile/background/service5.png";
 
-export default exemplesArr = [
+export const exemplesArr = [
   {
     title: "atvs traveling",
     tagline: "Feel the adrenaline rush",
