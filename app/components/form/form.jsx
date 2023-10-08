@@ -70,7 +70,7 @@ export default function Form({ isActive }) {
           />
           {errors?.name && (
             <div className={css.error}>
-              <Image src={close} />
+              <Image src={close} alt="close"/>
               {errors.name.message}
             </div>
           )}
@@ -96,7 +96,7 @@ export default function Form({ isActive }) {
           />
           {errors?.mail && (
             <div className={css.error}>
-              <Image src={close} />
+              <Image src={close} alt="close" />
               {errors.mail.message}
             </div>
           )}
@@ -127,7 +127,7 @@ export default function Form({ isActive }) {
             />
             {errors?.position && (
               <div className={css.error}>
-                <Image src={close} />
+                <Image src={close}  alt="close"/>
                 {errors.position.message}
               </div>
             )}
@@ -163,7 +163,7 @@ export default function Form({ isActive }) {
               />
               {errors?.phone && (
                 <div className={css.error}>
-                  <Image src={close} />
+                  <Image src={close} alt="close"/>
                   {errors.phone.message}
                 </div>
               )}
