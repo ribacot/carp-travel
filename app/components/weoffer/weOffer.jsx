@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import exemples from "./examples";
+import {exemplesArr} from "./examples";
 import WeOfferItem from "./weOfferItem/weOfferItem";
 
 import css from "./weOffer.module.css";
@@ -15,14 +15,14 @@ export default function Weoffer() {
     setNumItem(Number(id) + 1);
     setButtonIsActive(true);
   };
-  const select = (i) => exemples.find((_, idx) => idx === i - 1);
+  const select = (i) => exemplesArr.find((_, idx) => idx === i - 1);
   const selectedElement = select(numItem);
   return (
     <Section title="we" span="offer" id="services" style={css.section}>
       <Background url={selectedElement.background} />
       <p className={css.counterWrapper}>
         <span className={css.counterItem}>{numItem.toString().padStart(2,"0")}</span>/
-        <span className={css.counterSumm}>{exemples.length.toString().padStart(2,"0")}</span>
+        <span className={css.counterSumm}>{exemplesArr.length.toString().padStart(2,"0")}</span>
       </p>
       <WeOfferItem
         item={selectedElement}
