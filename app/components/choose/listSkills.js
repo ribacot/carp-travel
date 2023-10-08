@@ -1,4 +1,4 @@
-export default listSkills = [
+export const listSkills = [
   {
     title: "Professional development",
     description:
