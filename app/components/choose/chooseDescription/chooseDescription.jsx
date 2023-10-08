@@ -1,4 +1,4 @@
-import listSkills from "../listSkills";
+import listSkills from "@/app/components/choose/listSkills";
 import css from "./chooseDescription.module.css"
 
 export default function ChooseDescription() {
