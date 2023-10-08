@@ -25,6 +25,8 @@
   .counterWrapper {
     font-size: 67px;
     line-height: 78px;
+    width: 220px;
+    text-align: left;
   }
 }
 @media screen and (min-width: 1440px) {
