@@ -1,0 +1,67 @@
+.btn {
+  position: relative;
+
+font-size: 18px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+
+
+  display: flex;
+  width: 100%;
+  min-height: 53px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+@media screen and (min-width: 768px) {
+  .btn {
+line-height: 22px;
+text-align: center;
+
+  }}
+@media screen and (min-width: 1440px) {
+  .btn {
+    font-size: 32px;
+    line-height: 39px;
+    
+  }}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.leftTop,
+.leftBottom,
+.rightTop,
+.rightBottom {
+  position: absolute;
+  width: 42px;
+  height: 8px;
+}
+.leftTop {
+  top: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+.leftBottom {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.rightTop {
+  top: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+}
+.rightBottom {
+  bottom: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}

@@ -1,0 +1,19 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+
+background-color:rgba(1, 10, 5,.75);
+backdrop-filter: blur(24px);
+
+  }
+  .decor{
+    text-align: end;
+  }
+  .btnClose{
+    margin-top: 43px;
+  }
+  

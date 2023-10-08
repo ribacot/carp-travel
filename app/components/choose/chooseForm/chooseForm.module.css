@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 24px;
+}
+
+.descriptinForm {
+  width: 179px;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}

@@ -1,0 +1,138 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: end;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form label {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-align: left;
+
+}
+.form input {
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0em;
+
+  height: 24px;
+}
+.form input,
+textarea {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding-left: 8px;
+}
+.form textarea {
+  height: 196px;
+  resize: none;
+}
+.wrapperInput {
+  position: relative;
+}
+.form .error {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 4px;
+
+  transform: translateY(100%);
+
+  color: #ff5757;
+}
+
+.startPhone {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.notCorrect {
+  color: #ff5757;
+}
+.correct {
+  color: #ffffff;
+}
+.form input::placeholder {
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 0.2);
+}
+.form .checkbox {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+.checkbox :disabled{
+  color: rgb(128, 128, 128);
+}
+
+label .checkboxOut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 22px;
+  height: 22px;
+  border: 1px solid #fff;
+}
+label .checkboxIn {
+  width: 14px;
+  height: 14px;
+}
+.notValid {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.valid {
+  background-color: #fff;
+}
+.confirmText {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.notVisibil {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btnSend{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+
+  width: 82px;
+}

@@ -1,0 +1,47 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    padding-top: 24px;
+    padding-bottom: 26px;
+  }}
+@media screen and (min-width: 1440px) {
+  .nav {
+    padding-bottom: 11px;
+  }}
+
+
+.adaptiveNav {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .adaptiveNav {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btnMenu {
+    display: none;
+  }
+}
+
+.btnClose {
+  z-index: 50;
+}
+
+@media screen and (min-width: 768px) {
+  .btnClose {
+    display: none;
+  }
+}

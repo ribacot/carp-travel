@@ -1,0 +1,85 @@
+/* .background{
+    left: 50%;
+} */
+/* .team{
+    width: 240px;
+    margin-bottom: 20px;
+} */
+.wrapperDeskriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: end;
+  width: 180px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .wrapperDeskriptions {
+    gap: 16px;
+    margin-bottom: 0;
+    width: 220px;
+  }
+}
+
+/* .believe{
+    width: 200px;
+    margin-bottom: 40px;
+} */
+.thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .thumb {
+    align-items: start;
+    flex-basis: 50%;
+    transform: translateY(-100%);
+
+    margin-bottom: 0;
+  }
+}
+
+.h3decor {
+  width: 180px;
+}
+@media screen and (min-width: 768px) {
+  .h3decor {
+    width: 220px;
+  }
+}
+
+.h3right {
+  text-align: left;
+}
+
+.h3left {
+  text-align: end;
+}
+.thumb p {
+  font-size: 14px;
+  letter-spacing: -0.01em;
+
+  width: 180px;
+}
+@media screen and (min-width: 768px) {
+  .thumb p {
+    letter-spacing: 0.02em;
+    width: 220px;
+  }
+}
+@media screen and (min-width: 768px) {
+    .wrapperParagraphWeUse{
+        display: flex;
+        justify-content: flex-end;
+       width: 100%;
+    }
+  .paragraphWeUse {
+
+    width: 465px;
+    
+  }
+}

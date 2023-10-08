@@ -1,0 +1,44 @@
+/* .weoffer {
+  position: relative;
+  height: 851px;
+
+} */
+.section {
+  position: relative;
+  height: 851px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    /* height: 651px; */
+    height: 100%;
+  }
+}
+.counterWrapper {
+  text-align: end;
+  font-size: 43px;
+  font-weight: 100;
+  line-height: 52px;
+  letter-spacing: 0em;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .counterWrapper {
+    font-size: 67px;
+    line-height: 78px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .counterWrapper {
+font-size: 98px;
+line-height: 119px;
+
+
+  }
+}
+.counterItem {
+  font-weight: 200;
+}
+.counterSumm {
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.2);
+}
