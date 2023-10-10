@@ -15,15 +15,16 @@ export const exemplesArr = [
     title: "atvs traveling",
     tagline: "Feel the adrenaline rush",
     description:
-      "Overcome the peaks of the Carpathians in a unique way - climbing. Make your own way to the heights and find inner peace in the embrace of the mighty rocks.",
+      "Join exciting rafting expeditions on the waterways of the Carpathians. Go through challenging waterways and overcome gusty waves, feel the adrenaline, and enjoy the incredible views of the surrounding mountains.",
+
     img: traveling,
     background: travelingBg,
   },
   {
     title: "rock climbing",
     tagline: "Destroy your limitations",
-    description:
-      "Join exciting rafting expeditions on the waterways of the Carpathians. Go through challenging waterways and overcome gusty waves, feel the adrenaline, and enjoy the incredible views of the surrounding mountains.",
+    description:      "Overcome the peaks of the Carpathians in a unique way - climbing. Make your own way to the heights and find inner peace in the embrace of the mighty rocks.",
+
     img: climbing,
     background: climbingBg,
   },

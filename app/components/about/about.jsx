@@ -9,7 +9,7 @@ export default function About() {
       id="about"
       title="who"
       span="we are"
-      styleContainer={css.container}
+      style={css.sectionAbout}
     >
       <Background url={backgroundImage} style={css.background} />
       <div className={css.wrapperDeskriptions}>

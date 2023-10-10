@@ -4,7 +4,6 @@ import Container from "../container/container";
 export default function Section({
   children,
   style,
-  styleContainer,
   id,
   title,
   span,
@@ -15,7 +14,7 @@ export default function Section({
       id={id}
       className={style}
     >
-      <Container className={styleContainer}>
+      <Container >
         {title && (
           <h2>
             {title}
