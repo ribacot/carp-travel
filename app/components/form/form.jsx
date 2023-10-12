@@ -39,6 +39,7 @@ export default function Form({ isActive }) {
 	const hendleValid = () => {
 		setIsDisabled(!isDisabled);
 	};
+  console.log(isActive)
 
 	return (
 		<form
