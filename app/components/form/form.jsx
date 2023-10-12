@@ -175,7 +175,7 @@ export default function Form({ isActive }) {
 					<textarea {...register("massege")} id="massege"></textarea>
 				</div>
 			</div>
-			<div className={` ${css.wrapperConfirme} ${!isActive ? css.footerStyle : null} `}>
+			<div className={` ${css.wrapperConfirm} ${!isActive ? css.footerStyle : null} `}>
 				{isActive && (
 					<>
 						<label className={css.checkbox}>
@@ -193,7 +193,7 @@ export default function Form({ isActive }) {
 									}`}
 								></div>
 							</div>
-							<span className={css.confirmText}>
+							<span className={`${css.confirmText} ${!formState.isValid&&css.noActiveConfirm}`}>
 								I confirm my consent to the processing of personal data.
 							</span>
 						</label>
