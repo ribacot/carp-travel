@@ -16,7 +16,7 @@ export default function ListOffers({ onClick, numItem, style }) {
 							id={i}
 							className={`${css.btnChenge} ${numItem === i + 1 && css.btnActive}`}
 						>
-							{numItem === i + 1 && <Image src={activeImg} alt="active button" />}
+							{numItem === i + 1 && <Image src={activeImg} width="6" height="6" alt="active button" />}
 							{title}
 						</button>
 					</li>
