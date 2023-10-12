@@ -6,9 +6,9 @@ export default function ChooseDescription() {
 		<ul className={css.listDescriptions}>
 			{listSkills.map(({ title, description }) => (
 				<li key={title}>
-					<div>
+					<div className={`${css.description} ${title==="Stimulating work environment"?css.largGap:null}`}>
 						<h4>{title}</h4>
-						<p className={css.description}>{description}</p>
+						<p >{description}</p>
 					</div>
 				</li>
 			))}

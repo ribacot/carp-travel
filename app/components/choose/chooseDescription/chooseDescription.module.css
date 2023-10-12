@@ -1,17 +1,30 @@
-.listDescriptions{
+.listDescriptions {
+	display: flex;
+	width: 181px;
+	flex-direction: column;
+	gap: 16px;
+	justify-content: flex-end;
+}
+@media screen and (min-width: 768px) {
+	.listDescriptions {
+        width: 225px;
+
+		justify-content: flex-start;
+        gap: 24px;
+	}
+}
+.description {
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: right;
+
     display: flex;
-    width: 181px;
     flex-direction: column;
-    gap: 16px;
-    justify-content: end;
+    gap: 8px;
 
 }
-
-.description{
-font-size: 12px;
-font-weight: 200;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: right;
-
-}
+@media screen and (min-width: 768px) {
+    .largGap {
+gap: 28px;}}
