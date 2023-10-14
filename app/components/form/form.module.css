@@ -176,12 +176,11 @@ label .checkboxIn {
 	.confirmText {
 		display: inline-block;
 		line-height: 22px;
-    /* color: rgb(128, 128, 128); */
 		width: 182px;
 	}
 }
 
-.notVisibil {
+.form .notVisibil {
 	position: absolute;
 	width: 1px;
 	height: 1px;

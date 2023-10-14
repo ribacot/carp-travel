@@ -6,7 +6,6 @@ import Section from "../section/section";
 
 import css from "./choose.module.css";
 
-
 export default function ChooseMobail() {
 	return (
 		<div className={css.wrapperMobail}>
