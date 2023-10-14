@@ -8,6 +8,7 @@
 	.wrapper {
 
 		align-items: flex-start;
+    gap: 32px;
 	}
 }
 
