@@ -1,4 +1,5 @@
 .wrapper {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -6,9 +7,15 @@
 }
 @media screen and (min-width: 768px) {
 	.wrapper {
-
 		align-items: flex-start;
-    gap: 32px;
+		gap: 32px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.wrapper {
+		justify-content: space-between;
+		transform: translateY(-86px);
+		gap: 14px;
 	}
 }
 
@@ -23,6 +30,13 @@
 @media screen and (min-width: 768px) {
 	.descriptinForm {
 		width: 221px;
-    /* padding-left: 20px; */
+	}
+}
+@media screen and (min-width: 1440px) {
+	.descriptinForm {
+		font-size: 18px;
+		line-height: 24px;
+		text-align: justify;
+		width: 234px;
 	}
 }

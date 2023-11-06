@@ -17,9 +17,9 @@ body {
 }
 @media screen and (min-width: 768px) {
 	body {
-    font-size: 16px;
-    line-height: 20px;
-      }
+		font-size: 16px;
+		line-height: 20px;
+	}
 }
 @media screen and (min-width: 1440px) {
 	body {
@@ -80,6 +80,15 @@ h4 {
 	letter-spacing: 0em;
 	text-align: right;
 }
+
+@media screen and (min-width: 1440px) {
+	h4 {
+		font-size: 18px;
+		line-height: 24px;
+		
+		width: 253px;
+	}}
+
 
 @media screen and (min-width: 768px) {
 	h1 {

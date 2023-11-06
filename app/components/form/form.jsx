@@ -39,7 +39,7 @@ export default function Form({ isActive }) {
 	const hendleValid = () => {
 		setIsDisabled(!isDisabled);
 	};
-  console.log(isActive)
+	console.log(isActive);
 
 	return (
 		<form
@@ -187,14 +187,22 @@ export default function Form({ isActive }) {
 								disabled={!formState.isValid}
 								onClick={hendleValid}
 							/>
-							<div className={css.checkboxOut}>
+							<div
+								className={`${css.checkboxOut} ${
+									!formState.isValid && css.notActiveConfirm
+								}`}
+							>
 								<div
 									className={`${css.checkboxIn} ${
 										!formState.isValid || isDisabled ? css.notValid : css.valid
 									}`}
 								></div>
 							</div>
-							<span className={`${css.confirmText} ${!formState.isValid&&css.noActiveConfirm}`}>
+							<span
+								className={`${css.confirmText} ${
+									!formState.isValid && css.notActiveConfirm
+								}`}
+							>
 								I confirm my consent to the processing of personal data.
 							</span>
 						</label>

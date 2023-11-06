@@ -13,6 +13,14 @@
         gap: 24px;
 	}
 }
+@media screen and (min-width: 1440px) {
+	.listDescriptions {
+        width: fit-content;
+
+		justify-content: flex-start;
+        gap: 24px;
+	}
+}
 .description {
 	font-size: 12px;
 	font-weight: 200;
@@ -25,6 +33,18 @@
     gap: 8px;
 
 }
+@media screen and (min-width: 1440px) {
+	.description {
+		flex-direction: row;
+		gap: 24px;
+	}
+	.description p{
+		width: 285px;
+		text-align: left;
+	}
+
+}
+
 @media screen and (min-width: 768px) {
     .largGap {
 gap: 28px;}}

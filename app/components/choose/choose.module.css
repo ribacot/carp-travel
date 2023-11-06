@@ -1,7 +1,11 @@
 .chooseSection h2{
 margin-bottom: 12px;
 }
-
+@media screen and (min-width: 1440px) {
+	.chooseSection h2{
+		margin-bottom: 24px;
+		}}
+		
 @media screen and (min-width: 768px) {
 	.wrapperMobail {
 		display: none;
@@ -41,6 +45,17 @@ margin-bottom: 12px;
 	.description {
 		width: 221px;
 		padding-top: 8px;
+	}}
+@media screen and (min-width: 1440px) {
+	.description {
+		font-size: 18px;
+		font-weight: 200;
+		line-height: 24px;
+		text-align: justify;
+		
+
+		width: 293px;
+		padding-top: 16px;
 	}}
 	
 
