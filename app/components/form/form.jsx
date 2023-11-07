@@ -39,7 +39,6 @@ export default function Form({ isActive }) {
 	const hendleValid = () => {
 		setIsDisabled(!isDisabled);
 	};
-	console.log(isActive);
 
 	return (
 		<form
@@ -135,9 +134,11 @@ export default function Form({ isActive }) {
 								</label>
 								<div className={css.wrapperInput}>
 									<input
-										className={`${errors?.phone && css.notCorrect}`}
+										className={`${
+											errors?.phone ? `${css.notCorrect} ${css.phone}` : css.phone
+										}`}
 										type="tel"
-										placeholder="+ 38 (097) 12 34 567"
+										placeholder="(097) 12 34 567"
 										{...register("phone", {
 											required: { value: true, message: "required" },
 											maxLength: {
