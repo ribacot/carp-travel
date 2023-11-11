@@ -4,27 +4,29 @@
 	flex-direction: column;
 	gap: 16px;
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 	.form {
 		flex-direction: row;
 		flex-wrap: wrap;
 		width: 460px;
 	}
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
 	.form {
 		width: 100%;
 	}
-}
+} */
 @media screen and (min-width: 768px) {
 	.form .wrapperFormBody {
 		display: flex;
 		flex-direction: row;
+		width: 100%;
+		gap: 20px;
 	}
 }
 @media screen and (min-width: 1440px) {
 	.form .wrapperFormBody {
-		width: 100%;
+		/* width: 100%; */
 		gap: 24px;
 	}
 }
@@ -87,6 +89,12 @@
 		width: 221px;
 	}
 }
+@media screen and (min-width: 768px) {
+	.form .messageFooter {
+		width: 100%;
+	}
+}
+
 @media screen and (min-width: 1440px) {
 	.form .message {
 		width: 292px;
