@@ -4,6 +4,7 @@ import ChooseForm from "../chooseForm/chooseForm";
 import backgroundImage from "@/app/img/section_bacground/choose.png";
 import Section from "../../section/section";
 import css from "../choose.module.css";
+import cssTablet from "./chooseTablet.module.css"
 // import css from "./chooseTablet.module.css";
 
 export default function ChooseTablet() {
@@ -18,7 +19,7 @@ export default function ChooseTablet() {
 						</p>
 					</div>
 					<h3 className={css.titleWhy}>Why us ?</h3>
-					<div style={{ display: "flex", justifyContent: "space-between" ,gap:"20px"}}>
+					<div className={cssTablet.wrapperDescriptionAndForm}>
 						<ChooseDescription />
 						<ChooseForm />
 					</div>

@@ -11,7 +11,7 @@ export default function Footer() {
 			<Background url={backgroundImage} />
 			<Container>
 				<div style={{width:"100%"}}>
-					<h2>
+					<h2 className={css.h2}>
 						contact <span>us</span>
 					</h2>
 					<div>

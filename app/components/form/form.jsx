@@ -172,7 +172,7 @@ export default function Form({ isActive }) {
 						</>
 					)}
 				</div>
-				<div className={css.message}>
+				<div className={isActive?css.message:css.messageFooter}>
 					<label htmlFor="massege">Message</label>
 					<textarea {...register("massege")} id="massege"></textarea>
 				</div>
