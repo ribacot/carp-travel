@@ -14,7 +14,6 @@
 @media screen and (min-width: 768px) {
 	.wrapperContacts {
 		font-size: 16px;
-		font-weight: 400;
 
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -24,11 +23,14 @@
 		padding-bottom: 40px;
 	}
 }
-/* @media screen and (min-width: 1440px) {
-	.form .message {
-		width: 292px;
+@media screen and (min-width: 1440px) {
+	.wrapperContacts {
+		flex-direction: column;
+		align-items: flex-start;
+
+		font-size: 18px;
 	}
-} */
+}
 .wrapperContacts span {
 	font-size: 12px;
 	font-weight: 200;
@@ -42,9 +44,15 @@
 	justify-content: end;
 	gap: 20px;
 }
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 1440px) {
 	.wrapperPhone {
 		padding-left: 64px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.wrapperPhone {
+		padding-left: 142px;
 	}
 }
 
@@ -57,13 +65,38 @@
 		order: 3;
 		padding-left: 34px;
 		padding-right: 0;
-    transform: translateY(-24px);
+		transform: translateY(-24px);
+	}
+}
+@media screen and (min-width: 1440px) {
+	.wrapperMail {
+		order: 0;
+		padding-left: 107px;
+		padding-right: 0;
+		transform: translateY(-24px);
 	}
 }
 
 .wrapperSocial {
 	padding-right: 15px;
 }
+
+@media screen and (min-width: 1440px) {
+	.wrapperSocial {
+		padding-left: 232px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.wrapperSocial li{
+text-align: end;	}
+}
+
+@media screen and (min-width: 1440px) {
+	.wrapperSocial span {
+		order: 1;
+	}
+}
+
 .socialLink:hover {
 	border-bottom: 1px solid #ffffff;
 }

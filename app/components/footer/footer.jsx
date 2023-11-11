@@ -14,7 +14,7 @@ export default function Footer() {
 					<h2 className={css.h2}>
 						contact <span>us</span>
 					</h2>
-					<div>
+					<div className={css.wrapperContentFooter }>
 						<Contacts />
 						<Form />
 					</div>
