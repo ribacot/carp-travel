@@ -8,22 +8,23 @@ import css from "./choose.module.css";
 
 export default function ChooseMobail() {
 	return (
-		<div className={css.wrapperMobail}>
-			<Section id="career" title="choose" span="us">
-				<Background url={backgroundImage} />
-				<div className={css.vrapperDescription}>
-					<p className={css.description}>
-						Your chance to join our passionate team in Carpathian tourism. Seeking
-						talented professionals to share our common mission.
-					</p>
-				</div>
-				<h3 className={css.titleWhy}>Why us ?</h3>
-				<ChooseDescription />
-			</Section>
-			<Section>
-				<Background url={backgroundImage} />
-				<ChooseForm />
-			</Section>
+		// <div className={css.wrapperMobail}>
+		<>			<Section id="career" title="choose" span="us" style={css.wrapperMobail}>
+		<Background url={backgroundImage} />
+		<div className={css.vrapperDescription}>
+			<p className={css.description}>
+				Your chance to join our passionate team in Carpathian tourism. Seeking
+				talented professionals to share our common mission.
+			</p>
 		</div>
+		<h3 className={css.titleWhy}>Why us ?</h3>
+		<ChooseDescription />
+	</Section>
+	<Section style={css.wrapperMobail}>
+		<Background url={backgroundImage} />
+		<ChooseForm />
+	</Section>
+</>
+		// </div>
 	);
 }

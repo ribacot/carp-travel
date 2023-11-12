@@ -1,0 +1,53 @@
+.hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+.wrapperGallery{
+    position: relative;
+}
+.imgWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+	.imgWrapper {
+		flex-direction: row;
+		align-items: center;
+	}
+}
+.imgThumb {
+	width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+	.mainImg {
+		width: 415px;
+		height: 294px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.secondaryImg {
+		width: 120px;
+		height: 86px;
+	}
+}
+
+.btnBack{
+    left:37px;
+    /* text-align: right; */
+}
+.btnNext{
+    right: 37px;
+    /* text-align: left; */
+}

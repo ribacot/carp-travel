@@ -17,6 +17,7 @@ export default function Weoffer() {
   };
   const select = (i) => exemplesArr.find((_, idx) => idx === i - 1);
   const selectedElement = select(numItem);
+  
   return (
     <Section title="we" span="offer" id="services" style={css.section}>
       <Background url={selectedElement.background} />
