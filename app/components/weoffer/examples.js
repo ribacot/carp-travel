@@ -1,14 +1,14 @@
-import traveling from "@/app/img/weoffer/mobile/traveling.png";
-import climbing from "@/app/img/weoffer/mobile/climbing.png";
-import ballooning from "@/app/img/weoffer/mobile/ballooning.png";
-import skydiving from "@/app/img/weoffer/mobile/skydiving.png";
-import rafting from "@/app/img/weoffer/mobile/rafting.png";
+import traveling from "@/app/img/weoffer/itemImage/traveling.png";
+import climbing from "@/app/img/weoffer/itemImage/climbing.png";
+import ballooning from "@/app/img/weoffer/itemImage/ballooning.png";
+import skydiving from "@/app/img/weoffer/itemImage/skydiving.png";
+import rafting from "@/app/img/weoffer/itemImage/rafting.png";
 
-import travelingBg from "@/app/img/weoffer/mobile/background/service1.png";
-import climbingBg from "@/app/img/weoffer/mobile/background/service2.png";
-import ballooningBg from "@/app/img/weoffer/mobile/background/service3.png";
-import skydivingBg from "@/app/img/weoffer/mobile/background/service4.png";
-import raftingBg from "@/app/img/weoffer/mobile/background/service5.png";
+import travelingBg from "@/app/img/weoffer/bacground/Background1.png";
+import climbingBg from "@/app/img/weoffer/bacground/Background2.png";
+import ballooningBg from "@/app/img/weoffer/bacground/Background3.png";
+import skydivingBg from "@/app/img/weoffer/bacground/Background4.png";
+import raftingBg from "@/app/img/weoffer/bacground/Background5.png";
 
 export const exemplesArr = [
   {
