@@ -4,7 +4,6 @@ import css from "./listOffers.module.css";
 import activeImg from "@/app/img/weoffer/button_active.svg";
 
 export default function ListOffers({ onClick, numItem, style }) {
-	console.log(style);
 	return (
 		<div className={style}>
 			<ul className={css.listoffers}>
