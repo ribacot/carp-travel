@@ -186,7 +186,11 @@ export default function Form({ isActive }) {
 				</div>
 				<div className={isActive ? css.message : css.messageFooter}>
 					<label htmlFor="massege">Message</label>
-					<textarea className={!isActive ? css.textareaFooter : null} {...register("massege")} id="massege"></textarea>
+					<textarea
+						className={!isActive ? css.textareaFooter : null}
+						{...register("massege")}
+						id="massege"
+					></textarea>
 				</div>
 			</div>
 			<div className={` ${css.wrapperConfirm} ${!isActive ? css.footerStyle : null} `}>

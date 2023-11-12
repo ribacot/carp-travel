@@ -5,11 +5,16 @@
 	gap: 16px;
 }
 @media screen and (min-width: 768px) {
+	.form {
+		gap: 24px;
+	}
+}
+@media screen and (min-width: 768px) {
 	.form .wrapperFormBody {
 		display: flex;
 		flex-direction: row;
 		width: 100%;
-		gap: 20px;
+		gap: 18px;
 	}
 }
 @media screen and (min-width: 1440px) {
@@ -21,6 +26,7 @@
 @media screen and (min-width: 1440px) {
 	.form .wrapperFormBodyFooter {
 		flex-direction: column;
+		gap: 40px;
 	}
 }
 
@@ -188,9 +194,15 @@
 	letter-spacing: 0em;
 	color: rgba(255, 255, 255, 0.2);
 }
+
+.form .wrapperConfirm {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
 @media screen and (min-width: 768px) {
 	.form .wrapperConfirm {
-		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
@@ -241,7 +253,14 @@ label .checkboxIn {
 	.confirmText {
 		display: inline-block;
 		line-height: 22px;
-		width: 182px;
+		width: 192px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.confirmText {
+		display: inline-block;
+		line-height: 24px;
+		width: 258px;
 	}
 }
 
@@ -265,7 +284,14 @@ label .checkboxIn {
 	letter-spacing: 0em;
 	text-align: center;
 
-	width: 82px;
+	width: fit-content;
+}
+@media screen and (min-width: 1440px) {
+	.btnSend {
+		font-family: Inter;
+		font-size: 32px;
+		line-height: 39px;
+	}
 }
 
 @media screen and (min-width: 768px) {

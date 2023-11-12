@@ -7,18 +7,18 @@
 }
 @media screen and (min-width: 768px) {
 	.listDescriptions {
-        width: 225px;
+		width: 225px;
 
 		justify-content: flex-start;
-        gap: 24px;
+		gap: 24px;
 	}
 }
 @media screen and (min-width: 1440px) {
 	.listDescriptions {
-        width: fit-content;
-
+		width: fit-content;
 		justify-content: flex-start;
-        gap: 24px;
+		gap: 24px;
+		padding-left: 40px;
 	}
 }
 .description {
@@ -28,23 +28,36 @@
 	letter-spacing: 0em;
 	text-align: right;
 
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
 }
+
 @media screen and (min-width: 1440px) {
 	.description {
 		flex-direction: row;
 		gap: 24px;
 	}
-	.description p{
+	.description p {
 		width: 285px;
 		text-align: left;
 	}
-
 }
 
 @media screen and (min-width: 768px) {
-    .largGap {
-gap: 28px;}}
+	.description p {
+		width: 221px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.description p {
+		width: 285px;
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.largGap {
+		gap: 28px;
+	}
+}
