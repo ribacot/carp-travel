@@ -31,6 +31,12 @@
 	}
 }
 
+/* @media screen and (min-width: 1440px) {
+	.form .wrapperFormBodyFooter {
+		gap: 24px;
+	}
+} */
+
 @media screen and (min-width: 768px) {
 	.form .wrapperInputs {
 		width: 222px;

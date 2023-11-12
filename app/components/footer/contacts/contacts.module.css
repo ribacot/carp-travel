@@ -45,14 +45,14 @@
 	gap: 20px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
 	.wrapperPhone {
 		padding-left: 64px;
 	}
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
 	.wrapperPhone {
-		padding-left: 142px;
+		padding-left: 141px;
 	}
 }
 
@@ -81,6 +81,11 @@
 	padding-right: 15px;
 }
 
+@media screen and (min-width: 768px) {
+	.wrapperSocial {
+		padding-right: 0;
+	}
+}
 @media screen and (min-width: 1440px) {
 	.wrapperSocial {
 		padding-left: 232px;

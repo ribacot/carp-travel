@@ -48,7 +48,13 @@ export default function Form({ isActive }) {
 			noValidate
 			autoComplete="off"
 		>
-			<div className={css.wrapperFormBody}>
+			<div
+				className={
+					isActive
+						? css.wrapperFormBody
+						: `${css.wrapperFormBody} ${css.wrapperFormBodyFooter}`
+				}
+			>
 				<div className={css.wrapperInputs}>
 					<div>
 						<label htmlFor="name" className={errors?.name && css.notCorrect}>
@@ -172,7 +178,7 @@ export default function Form({ isActive }) {
 						</>
 					)}
 				</div>
-				<div className={isActive?css.message:css.messageFooter}>
+				<div className={isActive ? css.message : css.messageFooter}>
 					<label htmlFor="massege">Message</label>
 					<textarea {...register("massege")} id="massege"></textarea>
 				</div>
