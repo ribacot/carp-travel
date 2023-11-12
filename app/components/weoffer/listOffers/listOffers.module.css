@@ -32,6 +32,9 @@
 	width: 100%;
 	opacity: 0.5;
 }
+.btnChenge:hover{
+	opacity: 1;
+}
 @media screen and (min-width: 768px) {
 	.btnChenge {
 		font-size: 22px;
