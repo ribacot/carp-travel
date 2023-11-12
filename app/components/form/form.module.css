@@ -4,18 +4,6 @@
 	flex-direction: column;
 	gap: 16px;
 }
-/* @media screen and (min-width: 768px) {
-	.form {
-		flex-direction: row;
-		flex-wrap: wrap;
-		width: 460px;
-	}
-}
-@media screen and (min-width: 1440px) {
-	.form {
-		width: 100%;
-	}
-} */
 @media screen and (min-width: 768px) {
 	.form .wrapperFormBody {
 		display: flex;
@@ -26,16 +14,15 @@
 }
 @media screen and (min-width: 1440px) {
 	.form .wrapperFormBody {
-		/* width: 100%; */
 		gap: 24px;
 	}
 }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
 	.form .wrapperFormBodyFooter {
-		gap: 24px;
+		flex-direction: column;
 	}
-} */
+}
 
 @media screen and (min-width: 768px) {
 	.form .wrapperInputs {
@@ -48,6 +35,19 @@
 	.form .wrapperInputs {
 		width: 290px;
 		gap: 24px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.form .wrapperInputsFooter {
+		width: 221px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.form .wrapperInputsFooter {
+		width: 100%;
+		flex-direction: row;
+		gap: 20px;
 	}
 }
 
@@ -74,6 +74,12 @@
 	width: 100%;
 	height: 24px;
 }
+@media screen and (min-width: 1440px) {
+	.form input {
+		height: 28px;
+	}
+}
+
 .form input,
 .form textarea {
 	background-color: rgba(255, 255, 255, 0.05);
@@ -84,9 +90,30 @@
 	height: 196px;
 	resize: none;
 }
+
 @media screen and (min-width: 768px) {
 	.form textarea {
 		height: 228px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.form textarea {
+		height: 268px;
+	}
+}
+
+.form .textareaFooter {
+	height: 193px;
+}
+
+@media screen and (min-width: 768px) {
+	.form .textareaFooter {
+		height: 221px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.form .textareaFooter {
+		height: 174px;
 	}
 }
 
@@ -95,15 +122,20 @@
 		width: 221px;
 	}
 }
-@media screen and (min-width: 768px) {
-	.form .messageFooter {
-		width: 100%;
-	}
-}
 
 @media screen and (min-width: 1440px) {
 	.form .message {
 		width: 292px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.form .messageFooter {
+		width: calc(100% - 241px);
+	}
+}
+@media screen and (min-width: 1440px) {
+	.form .messageFooter {
+		width: 100%;
 	}
 }
 
@@ -130,17 +162,8 @@
 	color: #ff5757;
 }
 .form .phone {
-	/* outline: 1px solid aqua; */
 	padding-left: 42px;
-	
-	 ;
-	
 }
-/* .form .phone {
-	outline: 1px solid rgb(234, 255, 0);
-
-	padding-left: 42px;
-} */
 
 .startPhone {
 	position: absolute;
@@ -248,5 +271,10 @@ label .checkboxIn {
 @media screen and (min-width: 768px) {
 	.form .footerStyle {
 		justify-content: flex-end;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.form .footerStyle {
+		width: 607px;
 	}
 }
