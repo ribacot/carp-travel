@@ -30,11 +30,11 @@ export default function Gallery() {
 				<ul className={css.imgWrapper}>
 					{imgArr.map((img, idx) => (
 						<li
-							className={`${css.imgThumb} ${idx === 1 ? css.mainImg : css.secondaryImg} ${
+							key={img} className={`${css.imgThumb} ${idx === 1 ? css.mainImg : css.secondaryImg} ${
 								idx > 2 && css.hidden
 							}`}
 						>
-							<Image src={img} sizes="100%" />
+							<Image src={img} sizes="100%" alt="Тature" />
 						</li>
 					))}
 				</ul>
