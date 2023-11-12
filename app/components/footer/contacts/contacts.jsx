@@ -7,16 +7,16 @@ export default function Contacts() {
       <div className={css.wrapperPhone}>
         <ul >
           <li>
-            <Link href="+380981234567">+38 (098) 12 34 567</Link>
+            <Link href="tel:+380981234567" className={css.link}>+38 (098) 12 34 567</Link>
           </li>
           <li>
-            <Link href="+380981234567">+38 (073) 12 34 567</Link>
+            <Link href="tel:+380981234567" className={css.link}>+38 (073) 12 34 567</Link>
           </li>
         </ul>
         <span>Phone number</span>
       </div>
       <div className={css.wrapperMail}>
-        <Link href="support@carptravel.com">support@carptravel.com</Link>
+        <Link href="mailto:support@carptravel.com" className={css.link}>support@carptravel.com</Link>
         <span>E-mail</span>
       </div>
       <div className={css.wrapperSocial}>
@@ -24,7 +24,7 @@ export default function Contacts() {
         <ul className={css.listSocial}>
           {social.map((el) => (
             <li key={el}>
-              <Link href="#" className={css.socialLink}>{el}</Link>
+              <Link href="#" className={css.link}>{el}</Link>
             </li>
           ))}
         </ul>

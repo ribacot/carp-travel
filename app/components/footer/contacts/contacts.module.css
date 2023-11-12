@@ -104,6 +104,7 @@ text-align: end;	}
 	}
 }
 
-.socialLink:hover {
-	border-bottom: 1px solid #ffffff;
+.link:hover {
+	text-decoration: underline;
+	text-underline-offset: 2px;
 }
