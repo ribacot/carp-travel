@@ -33,7 +33,6 @@ export default function Gallery() {
 	};
 	const onChengeImgPrev = () => {
 		const newArr = imgArr?.reduce((acc, el, idx, arr) => {
-			console.log("arr:", acc);
 			if (idx === 0) {
 				acc = [...arr, el];
 			}
