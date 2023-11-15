@@ -53,7 +53,7 @@ export default function Gallery() {
 								key={img.src}
 								className={`${css.imgThumb} ${
 									idx === 1 ? css.mainImg : css.secondaryImg
-								} ${idx > 2 && css.hidden}`}
+								} ${idx > 2 ? css.hidden : null}`}
 							>
 								<Image src={img} sizes="100%" alt="Nature" />
 							</li>
