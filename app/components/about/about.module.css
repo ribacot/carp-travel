@@ -1,3 +1,12 @@
+.background {
+	object-position: 20%;
+}
+@media screen and (min-width: 768px) {
+	.background {
+		object-position: 18%;
+	}
+}
+
 .sectionAbout h2 {
 	margin-bottom: 8px;
 }

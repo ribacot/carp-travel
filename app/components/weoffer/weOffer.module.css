@@ -1,16 +1,26 @@
-/* .weoffer {
-  position: relative;
-  height: 851px;
-
+.background {
+	object-position: 73%;
+}
+/* @media screen and (min-width: 768px) {
+	.background {
+		object-position: 100%;
+	}
 } */
+
 .section {
-	position: relative;
+	/* position: relative; */
 	height: 851px;
 }
 @media screen and (min-width: 768px) {
 	.section {
-		/* height: 651px; */
-		height: 100%;
+		/* height: 100%; */
+		height: 621px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.section {
+		/* height: 100%; */
+		height: 779px;
 	}
 }
 .counterWrapper {
@@ -34,8 +44,8 @@
 	.counterWrapper {
 		font-size: 98px;
 		line-height: 119px;
-    width: 625px;
-    padding-left: 20px;
+		width: 625px;
+		padding-left: 20px;
 
 		/* margin-right: 368px; */
 	}

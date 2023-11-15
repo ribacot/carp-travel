@@ -20,7 +20,7 @@ export default function Weoffer() {
   
   return (
     <Section title="we" span="offer" id="services" style={css.section}>
-      <Background url={selectedElement.background} />
+      <Background url={selectedElement.background} style={css.background} />
       <p className={css.counterWrapper}>
         <span className={css.counterItem}>{numItem.toString().padStart(2,"0")}</span>/
         <span className={css.counterSumm}>{exemplesArr.length.toString().padStart(2,"0")}</span>
